@@ -7,6 +7,8 @@ const Router = Ember.Router.extend({ //read-only variable so it's not reassigned
 });
 
 Router.map(function() {
+  this.route('about');
+  this.route('contact');
 });
 
 export default Router;
